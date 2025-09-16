@@ -1,9 +1,12 @@
 /* Base Styles */
 body {
+  width: 100%;
+  height: auto;
   color: royalblue;
   text-align: center;
   background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Borel", "Georgia";
+  font-size: 1em;
 }
 
 .gradient-background {
@@ -25,12 +28,51 @@ body {
 }
 
 /* Typography */
+.nav-item a {
+  font-size: 1.5em;
+}
+
+.container-fluid {
+  padding-top: 2em;
+}
+
+.header-content {
+  margin-top: 3em;
+}
+
+.header-content h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 1.3em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.card {
+  margin: 5em;
+}
+
 
 /* Links & Accents */
 
 /* Images */
+/*
+
+}
 .seasonal-offer img{
   height: 75vh;
+}
+
+*/
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Hero Section */
@@ -40,6 +82,7 @@ body {
 /* About Section */
 
 /* Specials Section */
+
 
 /* Visit Us Section */
 
